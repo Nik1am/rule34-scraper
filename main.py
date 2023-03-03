@@ -5,6 +5,7 @@ import json
 query = "minecraft"
 exclude_banned_tags = 1
 
+banned_tags = 'insect insects bondage rape bodysuit tentacle tentacles big_belly chubby_female chubby_male chubby obese femboy morbit gay lesbian pregnant vore futa futanari ai_generated piss urine_stream urine shitting shit yaoi yuri furry puffy_anus deflation inflation hyper gore guro horse zoophilia fat birth'
 
 if query not in os.listdir():
   os.mkdir(query)
@@ -22,8 +23,6 @@ def writelinks():
   for link in links:
     f.write(link+"\n")
   f.close()
-
-banned_tags = 'insect insects bondage rape bodysuit tentacle tentacles big_belly chubby_female chubby_male chubby obese femboy morbit gay lesbian pregnant vore futa futanari ai_generated piss urine_stream urine shitting shit yaoi yuri furry puffy_anus deflation inflation hyper gore guro horse zoophilia fat birth'
 
 def tag_check(tags):
   tags = tags.split(" ")
